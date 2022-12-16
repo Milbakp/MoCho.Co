@@ -1,0 +1,71 @@
+.topnav {
+    overflow: hidden;
+    background-color: #ca3225;
+    border-radius: 25px;
+    display: flexbox;
+  }
+  
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.image{
+    width: 100%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+body{
+    font-family: "Krona One";
+    text-align: center;
+    background-color: #faefe6;
+}
+
+.redRound
+{
+  background-color: #ca3225;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+h1,h3, h2, h4{
+    background-color: #ca3225;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+}
+h1{
+  font-size: 3vw;
+}
+h3, h4{
+  font-size: 2vw;
+}
+
+table{
+  border-radius: 20px;
+  
+}
+table, th, td{
+  
+  width: 3vw;
+  background-color: #feab53;
+  border-collapse: collapse;
+  border: 3px solid white;
+  padding: 20px;
+}
+
+.centergrid{
+  display: grid; place-items: center;
+}
